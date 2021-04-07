@@ -16,8 +16,10 @@ body{
     background-color: var(--background-dark);
 }
 
+
+
 /* main styles */
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6,p{
     margin: .2rem 0px;
 }
 p{
@@ -49,6 +51,8 @@ li{
     color: var(--primary-blue);
 
 }
+
+
 /* text styles */
 h1{
     font-size: 2.5rem;
@@ -62,11 +66,23 @@ h1{
     padding-bottom: 10px;
     border-bottom:2px solid var(--primary-blue) ;
 }
+.muted{
+    color :rgb(100, 97, 97);
+}
+.primary{
+    color : var(--primary-blue)
+}
+
 /* margin styles */
 .mr-10{
     margin-right: 10px;
 }
-
+.mt-20{
+    margin-top:15px;
+}
+.mt-50{
+    margin-top:50px;
+}
 /* main structure */
 .app{
     display: flex;
@@ -139,4 +155,6 @@ footer>img{
     margin-top:100px ;
     padding-bottom: 100px;
 }
-
+article{
+    margin: 25px 0px;
+}
