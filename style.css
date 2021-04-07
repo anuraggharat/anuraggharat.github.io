@@ -4,6 +4,7 @@
     --background-dark:#1d1d1d;
     --primary-blue:#706fd3;
     --primary-white:#ffffff;
+    --secondary-white:#c0c0c0;
 }
 body{
     padding: 0px;
@@ -15,7 +16,8 @@ body{
     /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Mulish', sans-serif;
     color: var(--primary-white);
-    background-color: var(--background-dark);
+    background-color: var(--background-dark); 
+    /* background-color: var(--primary-blue); */
 }
 
 
@@ -28,12 +30,11 @@ a{
     text-decoration: none;
 }
 p{
-    font-size: 1.1rem;
-    line-height: 1.7rem;
-
-    font-weight: 400;
+    font-size: 1.4rem;
+    font-weight: 200;
+    color: var(--secondary-white);
 }
-ul{
+.pills{
     display: block;
     flex-direction: row;
     list-style: none;
@@ -41,7 +42,7 @@ ul{
     word-wrap: break-word;
     max-width: 100%;
 }
-li{
+.pills>li{
     margin:5px 10px 5px 0px ;
     display: inline-block;
 }
@@ -72,9 +73,7 @@ h1{
     padding-bottom: 10px;
     border-bottom:2px solid var(--primary-blue) ;
 }
-.muted{
-    color :rgb(100, 97, 97);
-}
+
 .primary{
     color : var(--primary-blue)
 }
@@ -124,7 +123,6 @@ nav>a:hover{
     min-height: 100vh;
     margin-left: 10vw;
 }
-
 .container{
     width: 80%;
     margin: 0px auto;
@@ -133,11 +131,9 @@ footer{
     width: 10vw;
     display: flex;
     justify-content: center;
-
-
 }
 footer>i{
-    font-size: 24px;
+    font-size: 30px;
     margin: 40px 0px ;
     color: white;
 }
