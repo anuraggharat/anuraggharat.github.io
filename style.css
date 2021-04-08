@@ -18,9 +18,11 @@ body{
     background-color: aliceblue;
     /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Mulish', sans-serif;
-    color: var(--primary-white);
-    background-color: var(--background-dark); 
+    /* color: var(--primary-white);
+    background-color: var(--background-dark);  */
     /* background-color: var(--primary-blue); */
+    color: var(--background-dark);
+    background-color: var(--primary-white);
 }
 
 
@@ -206,14 +208,14 @@ article{
 }
 
 @media screen and (max-width: 600px) {
-  body {
+    body {
       background-color: var(--background-dark);
-  }
-  .app{
+    }
+    .app{
     display: flex;
     flex-direction: column-reverse !important;
-}
-nav{
+    }
+    nav{
     width: 100%;
     height: 10vh;
     display: flex;
@@ -223,23 +225,22 @@ nav{
     background-color: var(--primary-grey);
     position: fixed;
     bottom: 0px;
-}
-
-footer{
+    }
+    footer{
     width: 100%;
     height: 10vh;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-}
-footer>i{
+    }
+    footer>i{
     margin: 0px 20px;
 }
-.about-inside{
+    .about-inside{
     margin-top:50px ;
     padding-bottom: 100px;
 }
-.content{
+    .content{
     max-width: 100vw;
 }
 .container{
@@ -255,4 +256,11 @@ footer>i{
 .bi{
     font-size: 24px;
 }
+.heading{
+    font-size: 2.5rem;
+}
+h1{
+    font-size: 1.5rem;
+}
+
 }
