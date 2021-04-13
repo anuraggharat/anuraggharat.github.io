@@ -4,7 +4,7 @@
   "start_url": "index.html",
   "display": "standalone",
   "background_color": "#fdfdfd",
-  "theme_color": "#db4938",
+  "theme_color": "#706fd3",
   "orientation": "portrait-primary",
   "icons": [
      {
@@ -19,7 +19,7 @@
     },
     
     {
-      "src": "/assets/anurag192.png",
+      "src": "/assets/anurag512.png",
       "type": "image/png", 
       "sizes": "512x512"
     }
